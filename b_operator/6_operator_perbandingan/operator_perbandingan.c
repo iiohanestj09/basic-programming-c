@@ -14,7 +14,11 @@ int main(){
     printf("Apakah a <= b?, %s\n", (a <= b)? "True" : "False");
     printf("Apakah a > b?, %s\n", (a > b)? "True" : "False");
     printf("Apakah a >= b?, %s\n", (a >= b)? "True" : "False");
-    
+
+    // Operator Ternary
+    int age = 20;
+    const char* status = (age >= 18)? "Adult" : "Minor";
+    printf(status);
 
     return 0;
 }
